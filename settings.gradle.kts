@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         gradlePluginPortal()
         google()
@@ -13,4 +14,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "NIAModularClone"
-include ':app'
+include(":app")
+include(":feature:foryou")
+include(":feature:author")
+include(":feature:bookmarks")
+include(":feature:interests")
+include(":feature:topic")
