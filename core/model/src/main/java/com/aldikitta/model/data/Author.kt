@@ -1,5 +1,8 @@
 package com.aldikitta.model.data
 
+/**
+ * External data layer representation of an NiA Author
+ */
 data class Author(
     val id: String,
     val name: String,
