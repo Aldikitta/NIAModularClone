@@ -22,6 +22,7 @@ include(":feature:interests")
 include(":feature:topic")
 include(":core:data")
 include(":core:model")
+include(":core:common")
 include(":sync:work")
 include(":sync:sync-test")
 

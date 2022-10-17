@@ -2,7 +2,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.aldikitta.samples.apps.nowinandroid.buildlogic"
+group = "com.aldikitta.buildlogic"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -17,43 +17,43 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApplicationCompose") {
-            id = "nowinandroid.android.application.compose"
+            id = "aldikitta.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
         register("androidApplication") {
-            id = "nowinandroid.android.application"
+            id = "aldikitta.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidApplicationJacoco") {
-            id = "nowinandroid.android.application.jacoco"
+            id = "aldikitta.android.application.jacoco"
             implementationClass = "AndroidApplicationJacocoConventionPlugin"
         }
         register("androidLibraryCompose") {
-            id = "nowinandroid.android.library.compose"
+            id = "aldikitta.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
         }
         register("androidLibrary") {
-            id = "nowinandroid.android.library"
+            id = "aldikitta.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("androidFeature") {
-            id = "nowinandroid.android.feature"
+            id = "aldikitta.android.feature"
             implementationClass = "AndroidFeatureConventionPlugin"
         }
         register("androidLibraryJacoco") {
-            id = "nowinandroid.android.library.jacoco"
+            id = "aldikitta.android.library.jacoco"
             implementationClass = "AndroidLibraryJacocoConventionPlugin"
         }
         register("androidTest") {
-            id = "nowinandroid.android.test"
+            id = "aldikitta.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
         register("androidHilt") {
-            id = "nowinandroid.android.hilt"
+            id = "aldikitta.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
         register("firebase-perf") {
-            id = "nowinandroid.firebase-perf"
+            id = "aldikitta.firebase-perf"
             implementationClass = "FirebasePerfConventionPlugin"
         }
     }

@@ -1,4 +1,4 @@
-import com.aldikitta.samples.apps.nowinandroid.configureKotlinAndroid
+import com.aldikitta.configureKotlinAndroid
 import com.android.build.gradle.TestExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

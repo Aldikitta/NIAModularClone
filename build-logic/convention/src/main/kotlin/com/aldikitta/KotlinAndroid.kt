@@ -1,4 +1,4 @@
-package com.aldikitta.samples.apps.nowinandroid
+package com.aldikitta
 
 import com.android.build.api.dsl.CommonExtension
 import org.gradle.api.JavaVersion
@@ -20,7 +20,7 @@ internal fun Project.configureKotlinAndroid(
         compileSdk = 33
 
         defaultConfig {
-            minSdk = 21
+            minSdk = 28
         }
 
         compileOptions {

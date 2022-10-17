@@ -1,4 +1,4 @@
-package com.aldikitta.samples.apps.nowinandroid
+package com.aldikitta
 
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.dsl.ApplicationProductFlavor

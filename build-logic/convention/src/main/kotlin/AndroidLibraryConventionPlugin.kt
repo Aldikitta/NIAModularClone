@@ -1,6 +1,6 @@
-import com.aldikitta.samples.apps.nowinandroid.configureFlavors
-import com.aldikitta.samples.apps.nowinandroid.configureKotlinAndroid
-import com.aldikitta.samples.apps.nowinandroid.configurePrintApksTask
+import com.aldikitta.configureFlavors
+import com.aldikitta.configureKotlinAndroid
+import com.aldikitta.configurePrintApksTask
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.Plugin

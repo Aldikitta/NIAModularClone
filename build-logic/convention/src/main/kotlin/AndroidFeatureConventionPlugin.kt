@@ -10,8 +10,8 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
             pluginManager.apply {
-                apply("nowinandroid.android.library")
-                apply("nowinandroid.android.hilt")
+                apply("aldikitta.android.library")
+                apply("aldikitta.android.hilt")
             }
             extensions.configure<LibraryExtension> {
                 defaultConfig {

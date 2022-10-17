@@ -1,4 +1,4 @@
-import com.aldikitta.samples.apps.nowinandroid.configureAndroidCompose
+import com.aldikitta.configureAndroidCompose
 import com.android.build.gradle.LibraryExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project

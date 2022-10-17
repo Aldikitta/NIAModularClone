@@ -1,4 +1,4 @@
-import com.aldikitta.samples.apps.nowinandroid.configureJacoco
+import com.aldikitta.configureJacoco
 import com.android.build.api.variant.ApplicationAndroidComponentsExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
