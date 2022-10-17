@@ -25,12 +25,18 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/build-logic" />
             <option value="$PROJECT_DIR$/build-logic/convention" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/data" />
+            <option value="$PROJECT_DIR$/core/model" />
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/author" />
             <option value="$PROJECT_DIR$/feature/bookmarks" />
             <option value="$PROJECT_DIR$/feature/foryou" />
             <option value="$PROJECT_DIR$/feature/interests" />
             <option value="$PROJECT_DIR$/feature/topic" />
+            <option value="$PROJECT_DIR$/sync" />
+            <option value="$PROJECT_DIR$/sync/sync-test" />
+            <option value="$PROJECT_DIR$/sync/work" />
           </set>
         </option>
       </GradleProjectSettings>

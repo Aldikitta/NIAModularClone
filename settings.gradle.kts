@@ -20,3 +20,8 @@ include(":feature:author")
 include(":feature:bookmarks")
 include(":feature:interests")
 include(":feature:topic")
+include(":core:data")
+include(":core:model")
+include(":sync:work")
+include(":sync:sync-test")
+
