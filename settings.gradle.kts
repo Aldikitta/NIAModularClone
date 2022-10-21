@@ -27,3 +27,5 @@ include(":sync:work")
 include(":sync:sync-test")
 
 include(":core:network")
+include(":core:database")
+include(":core:testing")

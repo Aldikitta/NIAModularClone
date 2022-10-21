@@ -20,7 +20,8 @@ secrets{
 dependencies {
     implementation(project(":core:common"))
     implementation(project(":core:model"))
-    // TODO add module testing here
+
+    testImplementation(project(":core:testing"))
 
 
     implementation(libs.kotlinx.coroutines.android)

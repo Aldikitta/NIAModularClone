@@ -1,5 +1,8 @@
 package com.aldikitta.data
 
+import com.aldikitta.database.model.AuthorEntity
+import com.aldikitta.network.model.NetworkAuthor
+
 fun NetworkAuthor.asEntity() = AuthorEntity(
     id = id,
     name = name,

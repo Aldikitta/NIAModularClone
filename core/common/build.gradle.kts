@@ -11,6 +11,5 @@ android {
 dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
-    // TODO add module testing
-//    testImplementation(project(":core:testing"))
+    testImplementation(project(":core:testing"))
 }
