@@ -26,3 +26,4 @@ include(":core:common")
 include(":sync:work")
 include(":sync:sync-test")
 
+include(":core:network")
