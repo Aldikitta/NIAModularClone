@@ -14,7 +14,7 @@ android {
 }
 secrets{
     // TODO fix this secrets plugin
-//    defaultPropertiesFileName = "secrets.defaults.properties"
+    defaultPropertiesFileName = "secrets.defaults.properties"
 }
 
 dependencies {
